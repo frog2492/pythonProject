@@ -10,6 +10,7 @@ def writefile(filename,content):
         f.write(i)
     f.close()
 
+0
 def readfile(filename):
     f = open(filename,"r")
     contents = f.readlines()

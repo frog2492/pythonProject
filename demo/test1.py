@@ -3,8 +3,8 @@
 # @Author : 袁
 # @File : test1.py
 # @Software:
-import random
 
+import random
 print("规则为 0是石头 1是剪刀 2是布")
 y = int(input("出拳:"))
 x = random.randint(0, 2)
